@@ -1,0 +1,380 @@
+span{
+	display:inline-block;
+}
+.cart-header{
+	width:100%;
+	height:100%;
+	background:#f8f8f8;
+	font-size:0.45rem;
+	text-align:center;
+	line-height: 0.9rem;
+	display:flex;
+	justify-content: space-between;
+	box-sizing:border-box;
+	padding:0 0.2rem;
+	position:absolute;
+	top:0;
+	left:0;
+	border-bottom:1px solid #ccc;
+	z-index: 999;
+}
+.ch-right{
+	font-size:0.3rem;
+	color:#999;
+	height:100%;
+	width:10%;
+	cursor:pointer;
+}
+.ch-left{
+	width:10%;
+	height:100%;
+}
+.cart{
+	background:#f2f2f2;
+	padding-top:0.2rem;
+	padding-bottom:1rem;
+}
+.cart-tittle{
+	width:100%;
+	height:0.9rem;
+	background:#fff;
+	box-sizing:border-box;
+	padding:0 0.2rem;
+	line-height: 0.9rem;
+	display:flex;
+	justify-content: space-between;
+}
+.cart-tittle span:nth-child(1){
+	font-size:0.38rem;
+	width:5%;
+	height:100%;
+	box-sizing:border-box;
+	padding-top:0.03rem;
+	color:#ffc000;
+}
+.cart-tittle span:nth-child(2){
+	font-size:0.35rem;
+	width:5%;
+	height:100%;
+	box-sizing:border-box;
+	padding-top:0.03rem;
+	color:#ffc000;
+}
+.cart-tittle span:nth-child(3){
+	font-size:0.3rem;
+	width:65%;
+	height:100%;
+	box-sizing:border-box;
+	padding-top:0.03rem;
+	position:relative;
+}
+.cart-tittle span:nth-child(3) span{
+	position:absolute;
+	top:0;
+	right:0.5rem;
+	color:#999;
+}
+.cart-tittle span:nth-child(3) p{
+	width:90%;
+	height:100%;
+	text-overflow:ellipsis;
+	overflow: hidden;
+}
+.cart-tittle span:nth-child(4){
+	font-size:0.25rem;
+	width:15%;
+	height:50%;
+	text-align: center;
+	box-sizing:border-box;
+	line-height:0.45rem ;
+	border:0.04rem solid #ffc000;
+	margin-top:0.23rem;
+	border-radius:0.08rem;
+	color:#ffc000;
+}
+.cart-check{
+	width:100%;
+	height:3.6rem;
+	background:#F8F8F8;
+	box-sizing:border-box;
+	padding:0 0.2rem;
+}
+.privilege{
+	height:100%;
+	height:1.3rem;
+	display:flex;
+	justify-content: space-between;
+}
+.privilege .manjian{
+	font-size:0.25rem;
+	width:68%;
+	box-sizing:border-box;
+	padding-left: 0.6rem;
+	padding-top:0.4rem;
+}
+.privilege .manjian span{
+	width:0.8rem;
+	height:0.3rem;
+	background:#ffc000;
+	text-align:center;
+	color:#fff;line-height: 0.3rem;
+	border-radius:0.05rem
+}
+.go{
+	margin-top:0.5rem;
+	font-size:0.25rem;
+	width:1rem;
+	height:0.35rem;
+	background:#ffc000;
+	text-align:center;
+	line-height:0.35rem;
+	border-radius:0.05rem;
+	color:#fff;
+}
+.privilege-main{
+	width:100%;
+	height:2.1rem;
+}
+.privilege-main-left{
+	width:10%;
+	height:100%;
+	line-height:2rem;
+	color:#ffc000;
+	float:left;
+}
+.privilege-main .privilege-main-left span{
+	font-size:0.38rem;
+}
+.privilege-main-right{
+	height:100%;
+	float:left;
+}
+.bag-img{
+	width:2.09rem;
+	height:2.09rem;
+	background:red;
+	box-sizing:border-box;
+	border:0.02rem solid #ccc;
+	float:left;
+}
+.bag-img img{
+	width:100%;
+	height:100%;
+}
+.bag-information{
+	height:100%;
+	float:left;
+	box-sizing: border-box;
+	padding-left:0.2rem;
+}
+.bag-words,.bag-price{
+	width:4.03rem;
+	height:50%;
+}
+.bag-words p{
+	width:80%;
+	font-size:0.25rem;
+}
+.bag-words p:last-child{
+	margin-top:0.05rem;
+	color:#999;
+}
+.bag-price{
+	display:flex;
+	justify-content:space-between;
+}
+.bag-price .simple-price{
+	font-size:0.3rem;
+	color:#f23a37;
+	font-weight:bold;
+	align-self: flex-end;
+}
+.bag-price .add{
+	width:1.9rem;
+	height:0.55rem;
+	box-sizing:border-box;
+	border:1px solid #ccc;
+	border-radius:0.05rem;
+	align-self: flex-end;
+	font-size:0.25rem;
+	display:flex;
+	justify-content: space-between;
+	line-height:0.5rem;
+}
+.bag-price .add span:last-child{
+	width:0.5rem;
+	height:0.3rem;
+	text-align: center;
+	font-size:0.4rem;
+	border-left:1px solid #ccc;
+	line-height: 0.3rem;
+	margin-top:0.1rem;
+}
+.bag-price .add span:first-child{
+	width:0.5rem;
+	height:0.3rem;
+	text-align: center;
+	font-size:0.5rem;
+	color:#999;
+	border-right:1px solid #ccc;
+	margin-top:0.1rem;
+	margin-top:0.1rem;
+	line-height: 0.3rem;
+}
+.intrest{
+	width:100%;
+	height:0.9rem;
+	display:flex;
+	justify-content: space-between;
+	font-size:0.2rem;
+	color:#666;
+	line-height: 0.9rem;;
+}
+.intrest span:nth-child(1){
+	width:20%;
+	height:0.02rem;
+	background:#666;
+	margin-top:0.42rem;
+}
+.intrest span:nth-child(3){
+	width:20%;
+	height:0.02rem;
+	background:#666;
+	margin-top:0.42rem;
+}
+.recommend{
+	width:100%;
+    height:5.9rem;
+    box-sizing:border-box;
+    padding:0 0.2rem;
+    display:flex;
+    justify-content: space-between;
+    margin-bottom:0.2rem;
+}
+.recommend-left,.recommend-right{
+	width:3.45rem;
+	height:100%;
+	background:#fff;
+}
+.re-bagimg{
+	height:3.65rem;
+	width:100%;
+}
+.re-bagimg img{
+	width:100%;
+	height:100%;
+}
+.re-words{
+	width:100%;
+	height:1rem;
+	font-size:0.3rem;
+	box-sizing:border-box;
+	padding:0.3rem 0.2rem;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
+.re-words span:first-child{
+	width:0.55rem;
+	height:0.3rem;
+	background:#fb5d5c;
+	Color:#fff;
+	font-size:0.25rem;
+	border-radius:0.045rem;
+	line-height: 0.3rem;
+	text-align: center;
+}
+.re-price{
+	width:100%;
+	height:0.5rem;
+	box-sizing:border-box;
+	padding:0 0.2rem;
+	font-size:0.3rem;
+	line-height: 0.7rem;
+}
+.re-price span:first-child{
+	color:#e65552;
+	font-weight:bold;
+	padding-right:0.05rem;
+}
+.re-price span:last-child{
+	color:#999;
+	font-weight:bold;
+	text-decoration: line-through;
+}
+.add-cart{
+	color:#fabb00;
+	width:100%;
+	height:0.7rem;
+	text-align: right;
+	box-sizing:border-box;
+	line-height:0.7rem;
+	padding:0 0.2rem;
+}
+.add-cart span{
+	font-size:0.6rem;
+}
+.cart-footer{
+	width:100%;
+	height:45px;
+	background:#fff;
+	position:absolute;
+	z-index: 999;
+	left:0;
+	bottom:0;
+	display:flex;
+	justify-content:space-between;
+}
+.cf-left{
+	width:20%;
+	height:100%;
+	font-size:0.3rem;
+	line-height:0.9rem;
+	box-sizing:border-box;
+	padding-left:0.2rem;
+}
+.cf-right{
+	width:4.7rem;
+	height:100%;
+	display:flex;
+	justify-content:space-between;
+}
+.cf-left span{
+	font-size:0.38rem;
+	color:#ffc000;
+	margin-top:0.05rem;
+	margin-right:0.1rem;
+}
+.jiesuan{
+	width:2.5rem;
+	height:106%;
+	background:#dc0100;
+	color:#fff;
+	font-size:0.4rem;
+	text-align: center;
+	line-height:0.9rem;
+}
+.jiesuan i{
+	font-style: normal;
+	font-size:0.37rem;
+}
+.cf-price{
+	width:1.9rem;
+	height:100%;
+	font-size:0.28rem;
+	display:flex;
+    flex-direction:column;
+}
+.cf-price span{
+	text-align:right;
+	font-size:0.28rem;
+	margin-top:0.1rem;
+	margin-bottom:0.03rem;
+}
+.cf-price span i{
+	font-style: normal;
+	color:#f0605c;
+}
+.cf-price p{
+	font-size:0.26rem;
+	text-align: right;
+}
