@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	 <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="x5-orientation" content="portrait | landscape" /><!--只支持写x5内核-->
+    <meta name="screen-orientation" content="portrait">  <!--只支持uc浏览器-->
+    <meta name="x5-fullscreen" content="true" /> <!--只支持写x5内核--> 
+    <meta name="full-screen" content="yes"> <!--只支持uc浏览器<-->
+    <meta name="format-detection" content="telephone=no, email=no" /> <!--禁止是被电话号码和邮箱-->	
+	<title>苏宁</title>
+	 <script src="js/zepto.min.js"></script>
+    <script src="js/swiper.jquery.min.js"></script>
+    <script src="js/swiper.animate1.0.2.min.js"></script>
+    <script src="js/iscroll.js"></script>
+    <script src="js/startiscroll.js"></script>
+    <script src="js/scale.js"></script>
+    <script src="js/index.js"></script>
+    
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/swiper.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/iscroll.css"/>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/font/iconfont.css" />
+</head>
+<body onload="loaded()">
+<div id="header">
+	<header>
+		<div class="category">
+			<p class=" iconfont icon-fenlei"></p>
+			<span>分类</span>
+		</div>
+		<div class="search">
+			<span class="iconfont icon-sousuo"></span>
+			<input type="text" value="双十二好货提前抢"/>
+			<span class="sao iconfont icon-scan"></span>
+		</div>
+		<div class="category">
+			<p class="iconfont icon-xiaoxi"></p>
+			<span>消息</span>
+		</div>
+	</header>
+</div>	
+<div id="wrapper">
+	<div id="scroller">
+		<div class="body">
+			<div class="banner">
+			    <div class="swiper-container">
+			        <div class="swiper-wrapper">
+			            <div class="swiper-slide">
+			            	<img src="img/banner1.jpg" alt="" />
+			            </div>
+			            <div class="swiper-slide"></div>
+			            <div class="swiper-slide"></div>
+			            <div class="swiper-slide"></div>
+			            <div class="swiper-slide"></div>
+			            <div class="swiper-slide"></div>
+			        </div>
+			        <!-- Add Pagination -->
+			        <div class="swiper-pagination"></div>
+			    </div>
+		    </div>
+		    <!--<div class="small-ban">
+		    	<img src="img/img.png" alt="" />
+		    </div>-->
+		    <div class="items">
+		    	<ul>
+		    		<li class="item-list">
+		    			<a href=""><span class="img"><img src="img/xia.png" alt="" /></span><span class="word">大聚惠</span></a>	
+		    		</li>
+		    		<li class="item-list">
+		    			<a href=""><span class="img"><img src="img/shou.png" alt="" /></span><span class="word">特价手机</span>
+		    			</a>
+		    		</li>
+		    		<li class="item-list">
+		    			<a href=""><span class="img"><img src="img/yao.png" alt="" /></span><span class="word">苏宁超市</span>
+		    		</a></li>
+		    		<li class="item-list">
+		    			<a href=""><span class="img"><img src="img/chen.png" alt="" /></span><span class="word">母婴玩具</span>
+		    			</a>
+		    		</li>
+		    		<li class="item-list">
+		    			<a href=""><span class="img"><img src="img/zao.png" alt="" /></span><span class="word">服装城</span>
+		    			</a>
+		    		</li>
+		    	</ul>
+		    	<ul>
+		    		<li class="item-list">
+		    			<a href=""><span class="img"><img src="img/mai.png" alt="" /></span><span class="word">充值缴费</span></a>	
+		    		</li>
+		    		<li class="item-list">
+		    			<a href=""><span class="img"><img src="img/mai2.png" alt="" /></span><span class="word">苏宁金融</span>
+		    			</a>
+		    		</li>
+		    		<li class="item-list">
+		    			<a href=""><span class="img"><img src="img/bu.png" alt="" /></span><span class="word">领云钻</span>
+		    		</a></li>
+		    		<li class="item-list">
+		    			<a href=""><span class="img"><img src="img/neng.png" alt="" /></span><span class="word">身边苏宁</span>
+		    			</a>
+		    		</li>
+		    		<li class="item-list">
+		    			<a href=""><span class="img"><img src="img/ting.png" alt="" /></span><span class="word">分类</span>
+		    			</a>
+		    		</li>
+		    	</ul>
+		    </div>
+		    <div class="toutiao">
+		    	<div class="toutiao-left">
+		    		<img src="img/toutiao.png" alt="" />
+		    	</div>
+		    	<div class="toutiao-right">
+		    		<div class="tr-active">
+			    		<p><i></i>1元秒杀三星S7edge！</p><br />
+			    		<p><i></i>双十二购机指南，最高直降 </p>
+		    		</div>
+		    	</div>
+		    </div>
+		    <div class="new-member">
+		       <div class="new-img">
+		       	 <div class="new">
+			         <a href=""></a>
+			     </div>
+			     <div class="new-left">
+			     	<a href=""></a>
+			     </div>
+			     <div class="new-right">
+			     	<div class="nr-top"><a href=""></a></div>
+			     	<div class="nr-bottom"><a href=""></a></div>
+			     </div>
+			     <div class="new-bottom">
+		       	<a href=""></a>
+		       </div>
+		       </div>
+		    </div>
+		    </div>
+    </div>
+</div>	
+	    <footer>
+	    	<ul>
+	    		<li class="footer-active">
+	    			<a href=""></a>
+	    			<div></div>
+	    			<p>首页</p>
+	    			</a>
+	    		</li>
+	    		<li>
+	    			<a href="">
+	    			<div></div>
+	    			<p>嗨购</p>
+	    			</a>
+	    		</li>
+	    		<li>
+	    			<a href="">
+	    			<div></div>
+	    			<p>青春社区</p>
+	    			</a>
+	    		</li>
+	    		<li>
+	    			<a href="cart1.html">
+	    			<div></div>
+	    			<p>购物车</p>
+	    			</a>
+	    		</li>
+	    		<li>
+	    			<a href="login.html">
+	    			<div></div>
+	    			<p>我的易购</p>
+	    			</a>
+	    		</li>
+	    	</ul>
+	    </footer>
+
+</body>
+<script>
+	var mySwiper = new Swiper('.swiper-container',{
+watchSlidesProgress : true,
+watchSlidesVisibility : true,
+pagination: '.swiper-pagination',
+        paginationClickable: true
+})
+</script>
+</html>

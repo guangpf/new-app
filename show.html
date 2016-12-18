@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+ <meta name="x5-orientation" content="portrait | landscape" /><!--只支持写x5内核-->
+    <meta name="screen-orientation" content="portrait">  <!--只支持uc浏览器-->
+    <meta name="x5-fullscreen" content="true" /> <!--只支持写x5内核--> 
+    <meta name="full-screen" content="yes"> <!--只支持uc浏览器<-->
+    <meta name="format-detection" content="telephone=no, email=no" /> <!--禁止是被电话号码和邮箱-->	
+
+<title></title>
+	    <script src="js/zepto.min.js"></script>
+	    <script src="js/swiper.jquery.min.js"></script>
+	    <script src="js/swiper.animate1.0.2.min.js"></script>
+	    <script src="js/iscroll.js"></script>
+	    <script src="js/startiscroll.js"></script>
+	    <script src="js/scale.js"></script>
+	    <script src="js/index.js"></script>
+	   
+	    
+	    <link rel="stylesheet" href="css/base.css" />
+	    <link rel="stylesheet" href="css/animate.min.css" />
+	    <link rel="stylesheet" href="css/swiper.min.css" />
+	    <link rel="stylesheet" href="css/index.css" />
+	    <link rel="stylesheet" href="css/login.css" />
+	    <link rel="stylesheet" href="css/cart.css" />
+	    <link rel="stylesheet" type="text/css" href="css/show.css"/>
+	    <link rel="stylesheet" href="css/iscroll.css" />
+	    <link rel="stylesheet" href="css/font/iconfont.css" />
+
+</head>
+<body onload="loaded()">
+<div id="header">
+	<div class="show-header">
+		<a href="cart1.html">
+			<div class="lh-left iconfont icon-iconfont60"></div>
+			</a>
+		<div class="swiper-container" id="swiper2">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide active-nav">
+					商品
+				</div>
+				<div class="swiper-slide">
+					详情
+				</div>
+				<div class="swiper-slide">
+					评价
+				</div>
+				
+			</div>
+		</div>
+		<div class="sh-right">
+			<span class="iconfont icon-gouwuche1"></span>
+			<span class="iconfont icon-kongxindegengduodiandian"></span>
+		</div>
+    </div>
+</div>
+
+<div id="wrapper">
+	<div id="scroller" >
+		<div class="show-body">
+	    <div class="swiper-container" id="swiper3">
+			<div class="swiper-wrapper">
+				<div class="swiper-slide aa">
+					<div class="swiper-container" id="swiper4">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="face">
+									<img src="img/face.png" alt="" />
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="face">
+									<img src="img/left.png" alt="" />
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="face">
+									<img src="img/left2.png" alt="" />
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="face">
+									<img src="img/back.png" alt="" />
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="face">
+									<img src="img/face.png" alt="" />
+								</div>
+							</div>
+					   </div>
+		                <div class="swiper-pagination"></div>
+		            </div>
+		            <div class="show-particulars">
+			            <div class="show-mwords">
+			            	<div class="show-mwords-left"><p>瑞士军刀SWISSGEAR十字系列SA1525升级版1680D面料时尚休闲书包</p>
+			            		
+			            	</div>
+			            	
+			            	<div class="show-mwords-right">
+			            		<span class="iconfont icon-fenxiang3"></span>
+			            		<span>分享</span>
+			            	</div>
+			            </div>
+			            <div class="show-redwords">
+			            	双十二品牌惠，全场满99减10，满199减20！买即送密码锁，数量有限，先到先得！
+			            </div>
+			            <div class="show-redprice">
+			            	<span>￥</span><span>89-399</span>
+			            </div>
+			            <div class="sale">
+			            	<div class="sale-left">
+			            		<span>促销</span>
+			            	    <span>满减</span>
+			            	    <span>满99.00元减10.00元，满199.00元减20.00元</span>
+			            	</div>
+			            	<div class="sale-right">
+			            		<span class="iconfont icon-xiangyou01"></span>
+			            	</div>
+			            	
+			            </div>
+			            <div class="show-checked">
+			            	<div class="show-item">
+			            	   <div class="show-checked-left">
+			            	   		<span>已选</span>&nbsp;
+			            		<span>黑</span><span>1</span><span>件</span>
+			            	   </div>
+			            	   <div class="show-checked-right">
+			            	   	<span class="iconfont icon-xiangyou01"></span>
+			            	   </div>
+			            	</div>
+			            	<div class="show-item">
+			            		 <div class="show-checked-left">
+			            	   		<span>任性付</span>&nbsp;&nbsp;
+			            		<span>0首付，30天免息，0利率</span>
+			            	   </div>
+			            	   <div class="show-checked-right">
+			            	   	<span class="iconfont icon-xiangyou01"></span>
+			            	   </div>
+			            	</div>
+			            	<div class="show-item">
+			            		 <div class="show-checked-left">
+			            	   		<span>送至</span>&nbsp;&nbsp;
+			            		<span>江苏</span>&nbsp;<span>南京市</span>&nbsp;<span>玄武区</span>
+			            	   </div>
+			            	   <div class="show-checked-right">
+			            	   	<span class="iconfont icon-xiangyou01"></span>
+			            	   </div>
+			            	</div>
+			            	<div class="show-item">
+			            		<span class="iconfont icon-122"> 店铺发货&售后</span>
+			            		<span class="iconfont icon-122"> 送119云钻</span>
+			            		<span class="iconfont icon-122"> 七天无理由退货</span>
+			            		<span class="iconfont icon-diandiandian1"></span>
+			            	</div>
+			            </div>
+			            <div class="goods-comment">
+				        	<div class="all-com">
+				        		 <div class="show-checked-left">
+			            	   		<span>商品评价</span>
+			            		<span style="color:#909090">（3536人）</span>
+			            	   </div>
+			            	   <div class="show-checked-right">
+			            	   	<span style="color:#d82222;margin-right:0.1rem;">好评率 <span>92%</span></span> 
+			            	   	<span class="iconfont icon-xiangyou01"></span>
+			            	   </div>
+				        	</div>
+				        	<div class="commet-category">
+				        		<div class="">
+				        			<span>有图(292)</span>
+				        		</div>
+				        		<div class=""><spqn>追评(92)</spqn></div>
+				        		<div class=""><span>整体感觉不错(409)</span></div>
+				        		<div class=""><span>性价比高(390)</span></div>
+				        		<div class=""><span>质量很好(364)</span></div>
+				        		<div class=""><span>外观不错(340)</span></div>
+				        	</div>
+				        	<div class="show-user">
+				        		<span>1***0</span>
+				        		<span>
+				        			<span class="iconfont icon-shoucang"></span>
+				        			<span class="iconfont icon-shoucang"></span>
+				        			<span class="iconfont icon-shoucang"></span>
+				        			<span class="iconfont icon-shoucang"></span>
+				        			<span class="iconfont icon-shoucang"></span>
+				        		</span>
+				        	</div>
+				        	<div class="com-con">
+				        		<span>大小可以,颜色也比较喜欢。材质也很不错，我儿子四年级，背着走有点大，最主要的是价格真真正正的不错</span>
+				        	</div>
+				        	<div class="com-img">
+				        		<p>黑</p>
+				        		<span><img src="img/con-img1.png" alt="" /></span>
+				        		<span><img src="img/con-img.png" alt="" /></span>
+				        	</div>
+				        	<div class="com-more">
+				        		<span>查看全部品论</span>
+				        	</div>
+			            </div>
+			            <div class="empty"></div>
+			        </div>
+				</div>
+				<div class="swiper-slide aa">
+					<div class="main-in-top">
+							<span class="main-in-active">图文详情</span>
+							<span>规格参数</span>
+							<span>包装售后</span>
+						</div>
+					<div class="main-information">
+						<div class="main-in-con">
+						    <div><img src="img/show1.png" alt="" /></div>
+						    <div><img src="img/show2.png" alt="" /></div>
+						    <div><img src="img/show3.png" alt="" /></div>
+						    <div><img src="img/show4.png" alt="" /></div>
+						    <div><img src="img/show5.png" alt="" /></div>
+						    <div><img src="img/show6.png" alt="" /></div>
+						</div>
+						
+					</div>
+				</div>
+				<!--<div class="swiper-slide aa">
+					评价
+				</div>-->
+		    </div>
+		</div>
+	    </div>
+	</div>
+</div>
+
+<div id="footer">
+	<div class="show-footer">
+	    <div class="show-footer-left">
+		    <div class="icon-words"> <span class="iconfont icon-kefu"></span><span>客服</span> </div>
+		    <div class="icon-words"><span class="iconfont icon-shoucang"></span><span>收藏</span></div>
+		    <div class="icon-words"><span class="iconfont icon-dianpu1"></span><span>店铺</span></div>
+	    </div>
+	     <div class="show-footer-right">
+		    <div class="bg-color">立即购买</div>
+		    <div class="bg-color">加入购物车</div>
+	    </div>
+	</div>
+</div>
+
+</body>
+<script> 
+$(function(){
+var mySwiper2 = new Swiper('#swiper2',{
+watchSlidesProgress : true,
+watchSlidesVisibility : true,
+slidesPerView : 3,
+allowSwipeToNext:false,
+allowSwipeToPrev:false,
+onTap: function(){
+			mySwiper3.slideTo( mySwiper2.clickedIndex)
+		}
+})
+var mySwiper3 = new Swiper('#swiper3',{
+onSlideChangeStart: function(){
+			updateNavPosition()
+	},
+	onSlideChangeEnd: function(swiper){
+//    alert(swiper.activeIndex)
+//    $('.aa').css({overflow:"hidden",height:0}).eq(swiper.activeIndex).css({'height':'auto'}); 
+//$('#scroller').css("transform","translate(0px,0px)")    
+    }
+})
+var mySwiper4 = new Swiper('#swiper4',{
+    direction:"horizontal",
+    pagination : '.swiper-pagination'
+})
+
+function updateNavPosition(){
+		$('#swiper2 .active-nav').removeClass('active-nav')
+		var activeNav = $('#swiper2 .swiper-slide').eq(mySwiper3.activeIndex).addClass('active-nav');
+
+
+		if (!activeNav.hasClass('swiper-slide-visible')) {
+console.log(1);
+			if (activeNav.index()>mySwiper2.activeIndex) {
+console.log(2);
+				var thumbsPerNav = Math.floor(mySwiper2.width/activeNav.width())-1
+				mySwiper2.slideTo(activeNav.index()-thumbsPerNav)
+			}
+			else {
+console.log(3);
+				mySwiper2.slideTo(activeNav.index())
+			}	
+		}
+	}
+
+
+	
+})
+</script>
+</html>

@@ -155,7 +155,7 @@ span{
 	background:red;
 	box-sizing:border-box;
 	border:0.02rem solid #ccc;
-	float:left;
+	float:left;			
 }
 .bag-img img{
 	width:100%;
@@ -163,9 +163,10 @@ span{
 }
 .bag-information{
 	height:100%;
-	float:left;
+	width:50%;
 	box-sizing: border-box;
 	padding-left:0.2rem;
+	float:left;
 }
 .bag-words,.bag-price{
 	width:4.03rem;
@@ -242,7 +243,7 @@ span{
 	background:#666;
 	margin-top:0.42rem;
 }
-.recommend{
+.recommend a{
 	width:100%;
     height:5.9rem;
     box-sizing:border-box;

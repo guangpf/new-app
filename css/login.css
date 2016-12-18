@@ -86,6 +86,10 @@
 .reg-in a:last-child{
 	color:#d3d3d3;
 }
+.others{
+	margin:0 auto;
+	margin-top:3.5rem;
+}
 .other-login{
 	width:6.9rem;
 	height:0.4rem;
@@ -93,7 +97,6 @@
 	font-size:0.25rem;
 	color:#747474;
 	margin:0 auto;
-	margin-top:4.5rem;
 	display:flex;
 	justify-content: space-between;
 }

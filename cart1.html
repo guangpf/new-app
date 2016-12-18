@@ -3,6 +3,11 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+ <meta name="x5-orientation" content="portrait | landscape" /><!--只支持写x5内核-->
+    <meta name="screen-orientation" content="portrait">  <!--只支持uc浏览器-->
+    <meta name="x5-fullscreen" content="true" /> <!--只支持写x5内核--> 
+    <meta name="full-screen" content="yes"> <!--只支持uc浏览器<-->
+    <meta name="format-detection" content="telephone=no, email=no" /> <!--禁止是被电话号码和邮箱-->	
 
 <title></title>
 	    <script src="js/zepto.min.js"></script>
@@ -22,20 +27,11 @@
 	    <link rel="stylesheet" href="css/cart.css" />
 	    <link rel="stylesheet" href="css/iscroll.css" />
 	    <link rel="stylesheet" href="css/font/iconfont.css" />
-
-
-
-<script type="text/javascript">
-
-
-
-</script>
-
 </head>
 <body onload="loaded()">
 <div id="header">
  	 <div class="cart-header">
-			<a href="index.html">
+			<a href="main.html">
 			<div class="ch-left iconfont iconfont icon-iconfont60"></div>
 			</a>
 			<div class="ch-mid">购物车</div>
@@ -50,7 +46,7 @@
 		    	<span class="iconfont icon-checked-fill"></span>
 		    	<span class="iconfont icon-dianpu"></span>
 		    	<span>
-		    		<p>SWISSGEAR瑞士军刀官方sfsdf aasdf a f</p>
+		    		<p>SWISSGEAR瑞士军刀官方</p>
 		    		<span class="iconfont icon-xiangyou01"></span>
 		    	</span>
 		    	<span>领券</span>
@@ -66,7 +62,9 @@
 		    	<div class="privilege-main">
 		    		<div class="privilege-main-left"><span class=" iconfont icon-checked-fill"></span></div>
 		    		<div class="privilege-main-right">
+		    			<a href="show.html">
 		    			<div class="bag-img"><img src="img/bag2.png" alt="" /></div>
+		    			</a>
 		    			<div class="bag-information">
 		    				<div class="bag-words">
 		    					<p>瑞士军刀SWISSGEAR列SA1525升级版1680D面料时</p>
@@ -90,6 +88,7 @@
 		    	<span></span>
 		    </div>
 		    <div class="recommend">
+		    	<a href="show.html">
 		    	<div class="recommend-left">
 		    		<div class="re-bagimg">
 		    			<img src="img/bag3.png" alt="" />
@@ -120,8 +119,10 @@
 		    			<span class="iconfont icon-jiarugouwuche"></span>
 		    		</div>
 		    	</div>
+		    	</a>
 		    </div>
 		    <div class="recommend">
+		    	<a href="show.html">
 		    	<div class="recommend-left">
 		    		<div class="re-bagimg">
 		    			<img src="img/bag3.png" alt="" />
@@ -152,8 +153,10 @@
 		    			<span class="iconfont icon-jiarugouwuche"></span>
 		    		</div>
 		    	</div>
+		    	</a>
 		    </div>
 		    <div class="recommend">
+		    	<a href="show.html">
 		    	<div class="recommend-left">
 		    		<div class="re-bagimg">
 		    			<img src="img/bag3.png" alt="" />
@@ -184,6 +187,7 @@
 		    			<span class="iconfont icon-jiarugouwuche"></span>
 		    		</div>
 		    	</div>
+		    	</a>
 		    </div>
 		</div>
 	</div>
